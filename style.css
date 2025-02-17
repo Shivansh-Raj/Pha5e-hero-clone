@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bolyfat';
+    src: url('fonts/Bolyfat.ttf') format('truetype');
+}
+
 body {
     background-color: #111;
     color: white;
@@ -93,8 +98,14 @@ body {
     opacity: 1;
     z-index: 150;
 }
+.image-wrapper-active .line-wrapper {
+    border: none;
+}
+.image-wrapper:hover .line-wrapper {
+    border: none;
+}
 
-.image-wrapper:hover .cross-diagonal {
+.image-wrapper:hover .cross-diagonal{
     display: none;
 }
 
@@ -108,7 +119,7 @@ body {
 
 .image-wrapper-active .image {
     opacity: 1 !important;
-    z-index: 99
+    z-index: 99;
 }
 
 .image-wrapper-active .cross-diagonal {
@@ -127,17 +138,17 @@ body {
     z-index: 100;
     padding: 0%;
     margin: 0%;
-    line-height: 0.8;
+    line-height: 1;
 
 }
 
 
 .hollow-text {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
     color: transparent;
     -webkit-text-stroke: 1px white; 
-    font-family: 'Cooper Black', sans-serif;
+    font-family: 'Bolyfat', sans-serif;
     /* font-family: 'Berlin Sans FB Demi', sans-serif; */
     transition: all 0.3s ease;
     cursor: pointer;
@@ -147,6 +158,7 @@ body {
 .hollow-text.filled {
     color: white;
     -webkit-text-stroke: 0px;
+    border: none;
 }
 
 .hollow-text:hover .image-wrapper {
