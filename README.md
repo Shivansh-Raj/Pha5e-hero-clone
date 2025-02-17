@@ -8,7 +8,7 @@ Clean and modular code structure
 Beautiful typography and design
 Easy-to-read code with comments
 ## 🌐 Live Link
-View the live project here
+[View the live project here](https://shivansh-raj.github.io/Pha5e-hero-clone/)
 
 ## 🔧 Technologies Used
 HTML
